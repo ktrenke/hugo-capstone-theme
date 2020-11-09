@@ -1,0 +1,12 @@
+{{ define "main" }}
+    <div class="text-center">
+        <img src="/images/{{ $.Param "image" }}" class="rounded">
+    </div>
+    <br>
+    <div class="text-center">
+        <strong>{{ .Title }}</strong>
+    </div>
+    <br>
+    {{ .Content }}
+
+{{ end }}
